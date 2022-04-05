@@ -1,5 +1,7 @@
 # Sakura Client
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+![GitHub repo size](https://img.shields.io/github/repo-size/demonicat/sakura-client)
+[![GitHub](https://img.shields.io/github/license/demonicat/sakura-client)](https://github.com/demonicat/sakura-client/blob/master/LICENSE)
+
 
 ### Based on [mehah/otclient](https://github.com/mehah/otclient) Rev: [3.490](https://github.com/mehah/otclient/tree/c4433f3dba1e2790038495ab056848e3344190ac)
 
