@@ -28,7 +28,7 @@ jobs:
           #   triplet: x64-windows
           #   packages: >
           #     boost-iostreams boost-asio boost-system boost-variant boost-lockfree boost-filesystem boost-uuid
-          #     glew luajit libogg libvorbis openal-soft opengl openssl physfs zlib
+          #     glew luajit libogg libvorbis openal-soft opengl openssl physfs zlib nlohmann-json protobuf
           - name: ubuntu-gcc
             os: ubuntu
             os-version: 18.04
@@ -37,7 +37,7 @@ jobs:
             triplet: x64-linux
             packages: >
               boost-iostreams boost-asio boost-system boost-variant boost-lockfree glew
-              boost-filesystem boost-uuid physfs openal-soft libogg libvorbis zlib opengl
+              boost-filesystem boost-uuid physfs openal-soft libogg libvorbis zlib opengl nlohmann-json protobuf
         #   - name: macos-clang
         #     os: macos
         #     os-version: latest
@@ -46,7 +46,7 @@ jobs:
         #     triplet: x64-osx
         #     packages: >
         #       boost-iostreams boost-asio boost-system boost-variant boost-lockfree glew
-        #       boost-filesystem boost-uuid libogg libvorbis zlib opengl
+        #       boost-filesystem boost-uuid libogg libvorbis zlib opengl nlohmann-json protobuf
         # exclude:
         #   - name: windows-msvc
         #     luajit: off
