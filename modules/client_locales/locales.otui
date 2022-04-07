@@ -10,7 +10,7 @@ LocalesButton < UIWidget
 
 UIWindow
   id: localesWindow
-  background-color: #000000
+  background-color: #ffffff
   opacity: 0.90
   clipping: true
   anchors.fill: parent

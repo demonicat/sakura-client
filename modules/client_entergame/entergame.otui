@@ -1,9 +1,11 @@
 EnterGameWindow < MainWindow
   !text: tr('Enter Game')
-  size: 236 212
+  anchors.left: parent.left
+  size: 256 256
 
 EnterGameButton < Button
-  width: 64
+  anchors.left: prev.left
+  anchors.right: prev.right
 
 EnterGameWindow
   id: enterGame
@@ -12,6 +14,10 @@ EnterGameWindow
   &stayLoggedBoxEnabled: false
   &stayLoggedBoxHeight: 24
   @onEnter: EnterGame.doLogin()
+
+  anchors.bottom: parent.bottom
+  anchors.top: parent.top
+  margin-top: 36
 
   MenuLabel
     !text: tr('Account name')
@@ -113,7 +119,8 @@ EnterGameWindow
     margin-top: 6
 
   EnterGameButton
-    !text: tr('Ok')
+    !text: tr('Login')
+    anchors.left: parent.left
     anchors.right: parent.right
     anchors.top: prev.bottom
     margin-top: 4
